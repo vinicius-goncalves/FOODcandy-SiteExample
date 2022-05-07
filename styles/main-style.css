@@ -14,6 +14,10 @@
     --color4: #260101;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     display: flex;
     justify-content: space-evenly;
@@ -38,7 +42,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: var(--color3);
+    background-color: var(--color2);
     color: white;
     border-radius: 5px;
 }
@@ -81,9 +85,86 @@ nav a:hover {
     border: none;
 }
 
+.second-section-content {
+    background-color: white;
+    margin-top: 35px;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 900px;
+}
+
+.second-section-content i {
+    font-size: 32px;
+}
+
+.second-section-content p, .second-section-content i {
+    color: var(--color4)
+}
+
+.second-section-content p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 0px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin: 0 50px;
+}
+
+.item img {
+    width: 350px;
+    height: 300px;
+}
+
+
+.item-lore {
+    color: var(--color3);
+    font: bold 22px Arial;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.item-lore p:last-child {
+    color: var(--color1);
+}
+
 /**
   * IDs
   */
+#first-section-container {
+    background-color: var(--color4);
+    min-height: 50vh;
+}
+
+#second-section-container {
+    background-color: var(--color3);
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#first-aside-container {
+    height: 0;
+}
+
+#second-aside-container {
+    margin-top: 220px;
+}
+
+#list-items-one, #list-items-second {
+    padding: 25px 0px;
+    display: flex;
+}
 
 /**
   * Others

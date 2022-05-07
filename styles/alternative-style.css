@@ -1,3 +1,25 @@
 .apply-font {
     font-family: 'Cookie', cursive;
 }
+
+.set-centralize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.set-centralize-sb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+::-webkit-scrollbar {
+    background-color: #1e1e1e;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #808080;
+    border-radius: 7px;
+}
