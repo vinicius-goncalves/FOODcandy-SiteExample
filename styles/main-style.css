@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color0: #A6916A;
+    --color1: #A67233;
+    --color2: #8C592B;
+    --color3: #40241A;
+    --color4: #260101;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px;
+    background-color: #fff;
+}
+
+
+
+nav a {
+    font-size: 32px;
+    margin-left: 30px;
+    font: bolder 22px 'Arial';
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px;
+    transition:
+        background-color 0.25s,
+        color 0.25s,
+        border-radius 0.25s;
+}
+
+nav a:hover {
+    background-color: var(--color3);
+    color: white;
+    border-radius: 5px;
+}
+
+/**
+ * CLASSES
+ */
+
+.header-title-container a {
+    font-size: 64px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.first-image {
+    background: url('../images/header-image.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.first-image-content {
+    text-align: center;
+    font-size: 64px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.first-image-content > input {
+    background-color: var(--color1);
+    padding: 20px 25px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+}
+
+/**
+  * IDs
+  */
+
+/**
+  * Others
+  */
+nav a,
+header-title a {
+    color: var(--color3);
+}
+
+#header-title {
+    text-decoration: none;
+    color: var(--color3);
+}
