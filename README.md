@@ -3,6 +3,7 @@ Um site com o tema de doces! :candy: :chocolate_bar:
 
 ## Observações:
 Este é um site de 'clone' e de estudos. Você pode conferir o site original [aqui](https://www.responsivemiracle.com/delicio-premium-responsive-bakery-food-ecommerce-html5-template/).
+O site ainda **não se encontra responsivo**.
 
 ## Teste o site agora mesmo! Confira:
 
