@@ -1,4 +1,4 @@
-# FOODcandy-SiteExample
+# FOODcand
 Um site com o tema de doces! :candy: :chocolate_bar:
 
 ## Observações:
