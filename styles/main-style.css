@@ -12,6 +12,9 @@
     --color2: #8C592B;
     --color3: #40241A;
     --color4: #260101;
+
+    --color5: #ce8d3e;
+
 }
 
 html {
@@ -47,6 +50,14 @@ nav a:hover {
     border-radius: 5px;
 }
 
+footer {
+    background-color: var(--color3);
+    min-height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /**
  * CLASSES
  */
@@ -58,7 +69,7 @@ nav a:hover {
 }
 
 .first-image {
-    background: url('../images/header-image.jpg') no-repeat center center;
+    background: url('../images/header-image.jpg') no-repeat center center fixed;
     background-size: cover;
     min-height: 50vh;
 
@@ -77,7 +88,7 @@ nav a:hover {
 }
 
 .first-image-content > input {
-    background-color: var(--color1);
+    background-color: var(--color5);
     padding: 20px 25px;
     color: white;
     text-transform: uppercase;
@@ -99,7 +110,8 @@ nav a:hover {
     font-size: 32px;
 }
 
-.second-section-content p, .second-section-content i {
+.second-section-content p,
+.second-section-content i {
     color: var(--color4)
 }
 
@@ -120,10 +132,14 @@ nav a:hover {
 }
 
 .item img {
-    width: 350px;
-    height: 300px;
+    width: 300px;
+    height: 240px;
 }
 
+.item img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
 
 .item-lore {
     color: var(--color3);
@@ -134,11 +150,35 @@ nav a:hover {
 
 .item-lore p:last-child {
     color: var(--color1);
+    font-weight: bolder;
+}
+
+.three-image {
+    background: url('../images/footer-image.jpg') center fixed;
+    background-size: cover;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.three-image h2 {
+    color: white;
+    font-size: 48px;
+    letter-spacing: 25px;
+    background-color: #0000007c;
+    padding: 25px;
 }
 
 /**
   * IDs
   */
+
+#button-see-our-products:hover {
+    background-color: var(--color1);
+    cursor: pointer;
+}
+
 #first-section-container {
     background-color: var(--color4);
     min-height: 50vh;
@@ -161,9 +201,33 @@ nav a:hover {
     margin-top: 220px;
 }
 
-#list-items-one, #list-items-second {
+#list-items-one,
+#list-items-second {
     padding: 25px 0px;
     display: flex;
+}
+
+#section-four-container {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+#section-four-container h2 {
+    font: bold 22px 'Arial', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#section-four-container p {
+    font: 22px 'Arial', sans-serif;
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+}
+
+#section-four-container div {
+    margin: 0 25px;
 }
 
 /**
